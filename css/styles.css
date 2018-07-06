@@ -56,3 +56,12 @@
   background-color: grey;
   padding-bottom: 61px;
 }
+#image{
+  margin-left: 170px;
+  border: 10px solid transparent;
+
+}
+.rea{
+  box-shadow: 10px 10px grey;
+  border;10px solid transparent;
+}
