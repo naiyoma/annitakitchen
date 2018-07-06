@@ -1,0 +1,22 @@
+
+
+
+#first{
+  background-image: url("../assets/backgrounds/landing.jpg");
+  background-size: cover;
+  background-position: centre;
+  background-attachment: fixed;
+}
+.logo{align-items: center;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+}
+#word{
+  text-align: center;
+  text-decoration-color: white;
+
+}
+.line1{
+  color: white;
+}
