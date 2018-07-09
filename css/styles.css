@@ -289,3 +289,11 @@ i{
   text-align: center;
   float: right;
 }
+.button-secondary{
+  background: slategrey;
+  color: #fff;
+  font-size: 18px ;
+  padding: 12px 20px;
+  width: 30%;
+  background-color: #FFFFFF;
+  float:right;
