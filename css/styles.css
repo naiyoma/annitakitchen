@@ -74,7 +74,9 @@
   background-image: url("../assets/backgrounds/foodsBg.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed
+  background-attachment: auto;
+  padding-top: 200px;
+
 }
 
 #bb{
@@ -99,6 +101,7 @@
   height: 300px;
   position: absolute;
   left: 50px;
+
   margin-left: 1px;
  top: 0;*/
  /*content: "";
@@ -318,4 +321,12 @@ i{
   font size: 100px;
   position:relative;
   left: 10%;
+}
+.nav-tabs li a {
+  display: inline;
+  float:right;
+
+}
+.container{
+  background-color: white;
 }
