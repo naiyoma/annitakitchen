@@ -34,6 +34,7 @@
 
   text-align: center;
   padding-bottom: 180px;
+  height: 210px;
 
 }
 #dinner{
@@ -50,7 +51,7 @@
   background-color: red;
   text-align: center;
   padding-bottom: 90px;
-  height: 170px;
+  height: 161px;
 
 }
 .ha{
@@ -256,4 +257,10 @@ i{
 #rb{
   padding-bottom: 20px;
   height: 50px;
+}
+.lunch2{
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  color: white;
 }
