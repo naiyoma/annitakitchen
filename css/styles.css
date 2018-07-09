@@ -181,7 +181,9 @@
 .clea{
   color: white;
   text-align: center;
-  width: -10%;
+  width: -5%;
+  position: relative;
+  left: 10%;
 }
 .button{
   padding: 6px 14px;
