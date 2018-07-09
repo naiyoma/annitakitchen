@@ -329,4 +329,15 @@ i{
 }
 .container{
   background-color: white;
+  padding-bottom: 2px;
+}
+.img1{
+  float: left;
+  position: relative;
+  left: 5%;
+}
+.img2{
+  float:left;
+  position: relative;
+  left: 10%;
 }
