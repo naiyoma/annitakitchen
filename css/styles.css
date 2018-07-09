@@ -282,4 +282,10 @@ i{
 }
 .drinksp{
   text-align: center;
+  float: right;
+  padding-left: 30%;
+}
+.ddrink{
+  text-align: center;
+  float: right;
 }
