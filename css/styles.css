@@ -49,7 +49,7 @@
   text-align: center;
 } */
 #hh{
-  background-color: red;
+  background-color: #F15A29;
   text-align: center;
   padding-bottom: 90px;
   height: 161px;
@@ -137,7 +137,7 @@
   text-align: middle;
 }
 #orange{
-  background-color: #CC6600;
+  background-color: #F15A29;
   padding-top: 180px;
 }
 #logo2{
@@ -215,7 +215,7 @@
   font-size: 18px ;
   padding: 12px 20px;
   width: 30%;
-  background-color: #CC6600;
+  background-color: #F15A29;
   float:right;
 
 }
@@ -269,5 +269,8 @@ i{
   position: absolute;
   top: 50%;
   right: 20px;
+  color: white;
+}
+.pp{
   color: white;
 }
