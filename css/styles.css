@@ -115,6 +115,7 @@
   background-position: center;
   background-attachment: fixed;
   padding-top: 200px;
+  padding-bottom: 100px;
   align-items: center;
   justify-content: center;
   margin:auto;
@@ -188,7 +189,8 @@
   color: #fff;
   font-size: 18px ;
   padding: 12px 20px;
-  width: 50%
+  width: 50%;
+  float: left;
 
 }
 .button-primary:hover {
@@ -207,10 +209,32 @@
   color: #fff;
   font-size: 18px ;
   padding: 12px 20px;
-  width: 50%;
+  width: 30%;
+  background-color: #CC6600;
+  float:right;
 
 }
 .button-secondary:hover {
-  background: orange;
+  background-color: orange;
 
+}
+i{
+  border: solid orange;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.left{
+  transform: rotate(140deg);
+  -webkit-transform: rotate(140deg);
+}
+.line5{
+  color: #CC6600;
+}
+.line7{
+  color: #CC6600;
 }
