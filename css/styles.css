@@ -181,6 +181,7 @@
 .clea{
   color: white;
   text-align: center;
+  width: -10%;
 }
 .button{
   padding: 6px 14px;
@@ -190,7 +191,7 @@
   border-color: grey;
 }
 .button-primary{
-  background: slategrey;
+  background: #C0C0C0;
   color: #fff;
   font-size: 18px ;
   padding: 12px 20px;
