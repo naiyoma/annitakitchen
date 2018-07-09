@@ -27,7 +27,7 @@
 
   text-align: center;
   padding-bottom: 180px;
-  height: 200px;
+  height: 210px;
 }
 #lunch{
   background-image: url("../assets/foodtop/lunch.jpg");
@@ -50,12 +50,14 @@
   background-color: red;
   text-align: center;
   padding-bottom: 90px;
+  height: 170px;
 
 }
 .ha{
   text-align: center;
   background-color: grey;
   padding-bottom: 61px;
+  height: 50px;
 }
 #image{
   margin-left: 170px;
@@ -248,6 +250,10 @@ i{
 .break{
   position: absolute;
   top: 50%;
-  left: 2px;
+  right: 20px;
   color: white;
+}
+#rb{
+  padding-bottom: 20px;
+  height: 50px;
 }
