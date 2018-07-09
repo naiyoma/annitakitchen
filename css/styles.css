@@ -145,6 +145,9 @@
   justify-content: center;
   margin: auto;
   display: flex;
+  position: relative;
+  top: 100px;
+
 }
 .menu{
   text-align: center;
@@ -184,6 +187,7 @@
   width: -5%;
   position: relative;
   left: 10%;
+  top: 10%;
 }
 .button{
   padding: 6px 14px;
@@ -308,4 +312,10 @@ i{
   color: black;
   border: 2px solid #F15A29;
   float: right;
+}
+.manu{
+  color:white;
+  font size: 100px;
+  position:relative;
+  left: 10%;
 }
