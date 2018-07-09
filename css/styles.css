@@ -42,6 +42,7 @@
 
   text-align: center;
   padding-bottom: 180px;
+  height: 210px;
 
 }
 /* #breakfast p{
@@ -259,6 +260,12 @@ i{
   height: 50px;
 }
 .lunch2{
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  color: white;
+}
+.dinner2{
   position: absolute;
   top: 50%;
   right: 20px;
