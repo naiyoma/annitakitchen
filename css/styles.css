@@ -5,7 +5,7 @@
   background-image: url("../assets/backgrounds/landing.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: auto;
   padding-bottom: 20px
 }
 .logo{
@@ -304,3 +304,5 @@ i{
   background-color: white;
   color: black;
   border: 2px solid #F15A29;
+  float: right;
+}
