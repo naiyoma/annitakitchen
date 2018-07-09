@@ -8,10 +8,18 @@
   <script src="js/scrips.js"></script>
   <title>anitas kitchen</title>
 </head>
+
 <body>
 
    <div id="first">
     <div class="row">
+      <div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a href="#">Contacts</a>
+<a href="#">Events</a>
+<a href="#">Menu</a>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
       <div class="logo">
       <image src="assets/logoBig.png">
       </div>
@@ -100,14 +108,14 @@
   <div class="container">
   <h3>Tabs</h3>
   <ul class="nav nav-tabs">
-    <li class="active"><a href="#">Home</a></li>
-    <li><a href="#">Menu 1</a></li>
-    <li><a href="#">Menu 2</a></li>
-    <li><a href="#">Menu 3</a></li>
+    <li class="active"><a href="#">Fast food</a></li>
+    <li><a href="#">Drinks</a></li>
+    <li><a href="#">chicken</a></li>
+    <li><a href="#">rice</a></li>
   </ul>
 
-  <img  class="img1"src="assets/fastfood/chickenBurger.jpg">     <img class="img2" src="assets/fastfood/beefBurger.jpg">   <img  class="img3" src="assets/fastfood/chickenPizza.jpg">
-  <p>chicken burger</p>
+  <img  class="img1"src="assets/fastfood/chickenBurger.jpg">  <p>chicken burger</p>     <img class="img2" src="assets/fastfood/beefBurger.jpg"> <p>beef burger</p>  <img  class="img3" src="assets/fastfood/chickenPizza.jpg">
+            <p>beefBurger</p>
 
 </div>
 
@@ -168,5 +176,14 @@
   <p class="licence">2016 menu restaurant</p>
 </div>
 </div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 </body>
 </html>
