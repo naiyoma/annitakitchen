@@ -150,6 +150,7 @@
   display: flex;
   position: relative;
   top: 100px;
+  left: 45%;
 
 }
 .menu{
@@ -206,7 +207,9 @@
   padding: 12px 20px;
   width: 50%;
   float: left;
-
+  position: relative;
+  left: 17%;
+opacity: 0.5;
 }
 .button-primary:hover {
   background: lightslategrey;
@@ -227,6 +230,7 @@
   width: 30%;
   background-color: #F15A29;
   float:right;
+  height: 5%;
 
 }
 .button-secondary:hover {
@@ -321,6 +325,8 @@ i{
   font size: 100px;
   position:relative;
   left: 0%;
+  top:80%;
+  margin-bottom: : 2em;
 }
 .nav-tabs li a {
   display: inline;
@@ -380,6 +386,13 @@ idenav {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+}
+.h3{
+  color: white;
+
+}
+.about{
+  color: #F15A29;
 }
 
 @media screen and (max-height: 450px) {
