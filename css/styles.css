@@ -5,7 +5,7 @@
   background-image: url("../assets/backgrounds/landing.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: auto;
   padding-bottom: 20px
 }
 .logo{
@@ -27,12 +27,14 @@
 
   text-align: center;
   padding-bottom: 180px;
+  height: 210px;
 }
 #lunch{
   background-image: url("../assets/foodtop/lunch.jpg");
 
   text-align: center;
   padding-bottom: 180px;
+  height: 210px;
 
 }
 #dinner{
@@ -40,21 +42,24 @@
 
   text-align: center;
   padding-bottom: 180px;
+  height: 210px;
 
 }
 /* #breakfast p{
   text-align: center;
 } */
 #hh{
-  background-color: red;
+  background-color: #F15A29;
   text-align: center;
   padding-bottom: 90px;
+  height: 161px;
 
 }
 .ha{
   text-align: center;
   background-color: grey;
   padding-bottom: 61px;
+  height: 50px;
 }
 #image{
   margin-left: 170px;
@@ -69,7 +74,9 @@
   background-image: url("../assets/backgrounds/foodsBg.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed
+  background-attachment: auto;
+  padding-top: 200px;
+
 }
 
 #bb{
@@ -94,6 +101,7 @@
   height: 300px;
   position: absolute;
   left: 50px;
+
   margin-left: 1px;
  top: 0;*/
  /*content: "";
@@ -113,7 +121,7 @@
   background-image: url("../assets/backgrounds/subscribe.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: auto;
   padding-top: 200px;
   padding-bottom: 100px;
   align-items: center;
@@ -132,7 +140,7 @@
   text-align: middle;
 }
 #orange{
-  background-color: #CC6600;
+  background-color: #F15A29;
   padding-top: 180px;
 }
 #logo2{
@@ -140,6 +148,10 @@
   justify-content: center;
   margin: auto;
   display: flex;
+  position: relative;
+  top: 100px;
+  left: 45%;
+
 }
 .menu{
   text-align: center;
@@ -176,6 +188,10 @@
 .clea{
   color: white;
   text-align: center;
+  width: -5%;
+  position: relative;
+  left: 10%;
+  top: 10%;
 }
 .button{
   padding: 6px 14px;
@@ -185,13 +201,15 @@
   border-color: grey;
 }
 .button-primary{
-  background: slategrey;
+  background: #C0C0C0;
   color: #fff;
   font-size: 18px ;
   padding: 12px 20px;
   width: 50%;
   float: left;
-
+  position: relative;
+  left: 17%;
+opacity: 0.5;
 }
 .button-primary:hover {
   background: lightslategrey;
@@ -210,8 +228,9 @@
   font-size: 18px ;
   padding: 12px 20px;
   width: 30%;
-  background-color: #CC6600;
+  background-color: #F15A29;
   float:right;
+  height: 5%;
 
 }
 .button-secondary:hover {
@@ -238,3 +257,146 @@ i{
 .line7{
   color: #CC6600;
 }
+.shay{
+  box-shadow: 0px 0px 10px;
+  left: 50%;
+  float: right;
+}
+.bora{
+  box-shadow: 0px 0px 10px;
+  right: 50%;
+  float: left;
+
+
+}
+.break{
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  color: white;
+}
+#rb{
+  padding-bottom: 20px;
+  height: 50px;
+}
+.lunch2{
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  color: white;
+}
+.dinner2{
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  color: white;
+}
+.pp{
+  color: white;
+}
+.drinksp{
+  text-align: center;
+  float: right;
+  padding-left: 30%;
+}
+.ddrink{
+  text-align: center;
+  float: right;
+}
+.button-secondary2{
+  font-size: 14px 40px;
+  padding: 14px 40px;
+  border-radius: 2px;
+  background-color: white;
+  color: black;
+  border: 2px solid #F15A29;
+}
+.button-secondary3{
+  font-size: 14px 40px;
+  padding: 14px 40px;
+  border-radius: 2px;
+  background-color: white;
+  color: black;
+  border: 2px solid #F15A29;
+  float: right;
+}
+.manu{
+  color:white;
+  font size: 100px;
+  position:relative;
+  left: 0%;
+  top:80%;
+  margin-bottom: : 2em;
+}
+.nav-tabs li a {
+  display: inline;
+  float:right;
+
+}
+.container{
+  background-color: white;
+  padding-bottom: 2px;
+}
+.img1{
+  float: left;
+  position: relative;
+  left: 5%;
+}
+.img2{
+  float:left;
+  position: relative;
+  left: 10%;
+}
+.img3{
+  float: left;
+  position: relative;
+  left: 20%;
+}
+idenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.h3{
+  color: white;
+
+}
+.about{
+  color: #F15A29;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+------------
